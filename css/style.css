@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: lightgrey;
+    
+}
+.div-size{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 70%;
+    font-size: 15px;
+    font-family: 'Big Shoulders Display', cursive;
+    
+    
+}
+.layer1{
+    
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+.layer2{
+    background-color: hsl(184, 100%, 22%);
+    
+}
+.layer3{
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+button {
+    background-color: transparent;
+    padding: 1em;
+    border-radius: 2em;
+    width: 70%;
+    border-color: white;
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    
+
+}
+.layer1,.layer2,.layer3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 1em 4em;
+    height: 70vh;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.btn1:hover{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+}
+.btn2:hover{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+}
+.btn3:hover{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+}
+/* image{
+    background-color: yellow;
+} */
